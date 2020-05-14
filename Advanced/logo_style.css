@@ -2,38 +2,48 @@ header {
 	text-align: center;
 }
 
+ul {
+	text-align: center;
+    list-style-type: none;
+    margin: 20px 0;
+    background-color: #f0f1f1;
+    padding: 20px 0;
+}
 
-ul span{
-        list-style-type: none;
-        margin: 0; /*sets all the margin properties*/
-        background-color: blue;
-        width: 100%
-    }
+ul li {
+	display: inline;
+}
 
-.center{
+li a {
+	color: grey;
+	padding: 0 10px;
+}
+
+
+.center, footer {
 	text-align: center;
 	background-color: #f0f1f1;
 	padding: 5px 0;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
-.column{
+.row {
+	display: table;
 	text-align: center;
 	padding: 5px 0;
-	margin: 10px 0;
 	width: 100%;
 }
 
-
-
-td {
-	background-color: #f0f1f1;
-	width: 30%;
-	padding: 20px;
+#middle {
+	border-left: white solid 20px;
+	border-right: white solid 20px;
 }
 
-td.two{
-	margin: 20px;
+.column {
+	display: table-cell;
+	background-color: #f0f1f1;
+	padding: 20px;
+	width: 33%;
 
 }
 
